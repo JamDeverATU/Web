@@ -36,3 +36,5 @@ function checkLoginStatus() {
         loginLogoutElement.setAttribute('href', 'login.html');
     }
 }
+
+
