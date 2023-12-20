@@ -81,13 +81,10 @@
         const thankYouMessage = document.getElementById('thank-you');
 
         form.addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent default form submission
-            // You can perform other actions here, like sending the form data via AJAX
+            event.preventDefault();
 
-            // For this example, just show the thank you message
             thankYouMessage.style.display = 'block';
 
-            // Clear form inputs after submission
             form.reset();
         });
     });
