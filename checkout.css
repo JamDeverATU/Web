@@ -221,3 +221,38 @@ footer {
         padding: 10px 15px; 
     }
 }
+
+@media screen and (max-width: 576px) {
+    .col-sm-12.col-md-6 {
+      margin-top: 50px;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    input[type="submit"] {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    fieldset {
+      padding: 10px;
+    }
+  
+    legend {
+      font-size: 18px;
+    }
+  
+    .alert {
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+  }

@@ -285,3 +285,37 @@ footer {
       padding: 10px 15px; 
     }
   }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      width: 100%;
+    }
+  
+    .products {
+      justify-content: center;
+    }
+  
+    .product {
+      width: 45%;
+    }
+  
+    .card {
+      width: 90%;
+      margin: 20px 0;
+    }
+  
+    .image-text-container {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+    }
+  
+    .image {
+      margin: 20px 0;
+    }
+  
+    .text {
+      text-align: center;
+    }
+  }
