@@ -137,14 +137,14 @@ input[type="date"] {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4b4b4b; 
-    color: #fff;
+    background-color: #000000; 
+    color: #ffffff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .btn-primary1:hover {
-    background-color: #000000; 
+    background-color: #505050; 
 }
 
 footer {
@@ -202,5 +202,18 @@ footer {
 
     nav li a {
         padding: 10px 15px;
+    }
+
+    .row {
+        margin-top: 30px; 
+    }
+
+    fieldset {
+        padding: 10px; 
+        
+    }
+
+    legend {
+        margin-top: 50px; 
     }
 }
